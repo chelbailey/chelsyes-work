@@ -1,0 +1,192 @@
+.site-section {
+    padding: 2.5em 0; }
+    @media (min-width: 768px) {
+      .site-section {
+        padding: 5em 0; } }
+    .site-section.site-section-sm {
+      padding: 4em 0; }
+.top-bar {
+    padding: .5rem 0;
+    background: #661404;
+    text-align: center;
+}
+    .top-bar a {
+      color: white; }
+.top-bar {
+        border-bottom: 1px solid #e9ecef !important; }
+#cgtitle {
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    padding: 15px 20px;
+    font-size: 38px;
+}
+#cgtitle a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: white;
+    text-align: center;
+}
+li {
+    display: inline;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    color: red;
+    text-decoration: none;
+}
+li.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1 {
+    font-family: 'Playfair Display SC';
+}
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 25px;
+}
+h3 {
+    font-family: 'Playfair Display SC' serif;
+    font-size: 20px;
+}
+h4 {
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+p {
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+#introbg {
+    background-color: #661404;
+    color: white;
+}
+#ingred {
+    background-color: #661404;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    font-family: 'Playfair Display SC';
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.maincontactus {
+    width:960px;
+    margin:20px auto;
+    font-family: 'Playfair Display SC', serif; 
+    color: #661404;
+}
+
+.contactus {
+    border-radius:2px;
+    padding:20px 30px;
+    box-shadow:0 0 15px;
+    font-size:14px;
+    font-weight:bold;
+    width:350px;
+    margin:20px auto;
+    justify-content: center;
+}
+.fa-youtube {
+    background: #661404;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #661404;
+    color: white;
+}
+.fa-facebook {
+    background: #661404;
+    color: white;
+  }
+.fa {
+    padding: 13px 13px;
+    font-size: 75px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 55%;
+    float: left;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    color: red;  
+    text-decoration: none;
+  }
+  #infocol {
+      float: left;
+  }
+  #ftinfo {
+    padding: 30px;
+    margin-top: 60px;
+  }
+.column {
+    margin: 0px auto;
+    width: 5%;
+    padding-right: 50px;
+  }
+  .parallax {
+
+    background-image: url(https://i.imgur.com/zzaI7cM.png);
+  
+
+    min-height: 500px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mc_embed_signup {
+      background:#fff; 
+      clear:left; 
+      font:14px Helvetica,Arial,sans-serif; 
+    }
+#copyright {
+    background-color: white;
+    color: #661404;
+}
